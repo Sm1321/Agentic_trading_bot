@@ -4,6 +4,7 @@ tavily-python
 polygon
 langchain_community
 langchain_google_genai
+langchain_groq
 streamlit
 fastapi[all]
 uvicorn

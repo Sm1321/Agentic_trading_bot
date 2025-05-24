@@ -78,3 +78,5 @@ if submit_button and user_input.strip():
 
     except Exception as e:
         raise TradingBotException(e, sys)
+
+

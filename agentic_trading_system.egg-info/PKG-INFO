@@ -1,8 +1,8 @@
 Metadata-Version: 2.4
 Name: agentic-trading-system
 Version: 0.0.1
-Author: Mohan
-Author-email: siddulamohan1321@gmail
+Author: sunny
+Author-email: snshrivas3365@gmail.com
 Requires-Dist: lancedb
 Requires-Dist: langchain
 Requires-Dist: langgraph

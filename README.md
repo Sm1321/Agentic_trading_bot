@@ -40,7 +40,6 @@ source activate ./env
 ```
 
 ## Next step
-
 1. mention logger and exception
 2. capture the logging and exception messages
 3. if possible run the langgraph workflow in ipynb and test the real time data fetching tool

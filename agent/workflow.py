@@ -11,7 +11,7 @@ class State(TypedDict):
 
 class GraphBuilder:
     def __init__(self):
-        self.model_loader=ModelLoader()
+        self.model_loader = ModelLoader()
         self.llm = self.model_loader.load_llm()
         self.tools = [retriever_tool, financials_tool, tavilytool]
         llm_with_tools = self.llm.bind_tools(tools=self.tools)
@@ -26,7 +26,7 @@ class GraphBuilder:
         
         graph_builder.add_node("chatbot", self._chatbot_node)
         
-        tool_node=ToolNode(tools=self.tools)
+        tool_node = ToolNode(tools = self.tools)
         graph_builder.add_node("tools", tool_node)
         
         graph_builder.add_conditional_edges("chatbot", tools_condition)
